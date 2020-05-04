@@ -23,13 +23,21 @@ p {
     margin: 10px 0;
 }
 
-/* Navbar */
+/* Utility Classes */
 
 .container {
     margin: auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
 }
 
 
@@ -69,4 +77,21 @@ p {
 {
     background: #444;
     color: #f7c08f;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../img/showcase.jpg');
+    height: 600px;
+}
+#showcase .showcase-content{
+    color: #333;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+    
 }
